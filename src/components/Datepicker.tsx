@@ -74,7 +74,9 @@ const Datepicker = (props: DatepickerType) => {
         toggleIcon = undefined,
 
         useRange = true,
-        value = null
+        value = null,
+
+        layout = "horizontal"
     } = props;
 
     // Refs
@@ -398,8 +400,12 @@ const Datepicker = (props: DatepickerType) => {
                 <div className={popupClassNameOverload} ref={calendarContainerRef}>
                     <Arrow ref={arrowRef} />
 
-                    <div className="mt-2.5 shadow-sm border border-gray-300 px-1 py-0.5 bg-white dark:bg-slate-800 dark:text-white dark:border-slate-600 rounded-lg">
-                        <div className="flex flex-col lg:flex-row py-2">
+                    <div
+                        className={`mt-2.5 shadow-sm border border-gray-300 px-1 py-0.5 bg-white dark:bg-slate-800 dark:text-white dark:border-slate-600 rounded-lg ${
+                            layout === "vertical" ? "w-full" : ""
+                        }`}
+                    >
+                        <div className={`flex ${layout === "vertical" ? "flex-col" : "flex-row"} py-2`}>
                             {showShortcuts && <Shortcuts />}
 
                             <div
