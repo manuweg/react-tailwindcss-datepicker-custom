@@ -1,11 +1,11 @@
 {
-    "name": "react-tailwindcss-datepicker",
+    "name": "react-tailwindcss-datepicker-custom",
     "version": "2.0.0",
     "description": "A modern React Datepicker using Tailwind CSS 3",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
     "types": "dist/index.d.ts",
-    "author": "onesine",
+    "author": "manuweg",
     "license": "MIT",
     "scripts": {
         "watch": "rollup -c -w",
@@ -20,7 +20,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/onesine/react-tailwindcss-datepicker"
+        "url": "https://github.com/manuweg/react-tailwindcss-datepicker-custom"
     },
     "keywords": [
         "react-tailwindcss-datepicker",
