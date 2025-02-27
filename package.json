@@ -1,5 +1,5 @@
 {
-    "name": "react-tailwindcss-datepicker-custom",
+    "name": "@manuweg/react-tailwindcss-datepicker-custom",
     "version": "2.0.0",
     "description": "A modern React Datepicker using Tailwind CSS 3",
     "main": "dist/index.cjs.js",
@@ -20,7 +20,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/manuweg/react-tailwindcss-datepicker-custom"
+        "url": "git+https://github.com/manuweg/react-tailwindcss-datepicker-custom.git"
     },
     "keywords": [
         "react-tailwindcss-datepicker",
